@@ -1,10 +1,14 @@
 # 7days of code - Lógica JS
 
-Desafio da **Rafa Ballerini** instrutora da **Alura**
+Desafio da @rafaballerini instrutora da **Alura**
 
 # Para executar
 
-- Possuir o node no computador ou executar via console o código
+Duas maneiras:
+- Possuir o node instalado no computador e executar via console do computador
+Por exemplo:
 ```
-node nome_do_arquivo.js
+node day1.js
 ```
+
+- Executar via console do browser
