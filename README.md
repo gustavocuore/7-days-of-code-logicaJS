@@ -1,6 +1,6 @@
 # 7days of code - Lógica JS
 
-Desafio da @rafaballerini instrutora da **Alura**
+Desafio da Rafa Ballerini instrutora da **Alura**
 
 # Para executar
 
