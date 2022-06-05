@@ -1,9 +1,9 @@
-let unknownNumber = Math.floor(Math.random() * 10) + 1;
+let numeroAdivinhacao = Math.floor(Math.random() * 10) + 1;
 let acertou = false;
 
 for(let i = 1; i <= 3; i++) {
     let tentativa = prompt(`Tentativa ${i} de 3`);
-    if(tentativa == unknownNumber) {
+    if(tentativa == numeroAdivinhacao) {
         acertou = true;
         break;
     }
@@ -11,7 +11,7 @@ for(let i = 1; i <= 3; i++) {
 }
 
 if(acertou) {
-    alert(`Você acertou! O número era ${unknownNumber}`);
+    alert(`Você acertou! O número era ${numeroAdivinhacao}`);
 } else {
-    alert(`Não foi dessa vez. O número era ${unknownNumber}`);
+    alert(`Não foi dessa vez. O número era ${numeroAdivinhacao}`);
 }
