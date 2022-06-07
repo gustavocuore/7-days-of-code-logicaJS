@@ -29,7 +29,7 @@ if (carreira == '1') {
 
 alert(`Certo. Seguirá a carreira ${carreira}`);
 
-let nova_tecnologia = prompt('Insira abaixo uma tecnologia para sua lista de aprendizado ou clique em "Cancel" para finalizar?');
+let nova_tecnologia = prompt('Insira abaixo uma tecnologia para sua lista de aprendizado ou clique em "Cancel" para finalizar');
 
 for (let i = 0; i <= tecnologias.length; i++) {
     if (nova_tecnologia != null) {
