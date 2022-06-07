@@ -46,7 +46,9 @@ if (carreira == '1') {
     alert(`Seguirá a carreira ${carreira}. Para isso, será necessário aprender outras linguagens e tecnologias além de ${linguagem}`);
 }
 
-let nova_tecnologia = prompt('Insira abaixo uma tecnologia para sua lista de aprendizado ou clique em "Cancel" para finalizar?');
+alert(`Certo. Seguirá a carreira ${carreira}`);
+
+let nova_tecnologia = prompt('Insira abaixo uma tecnologia para sua lista de aprendizado ou clique em "Cancel" para finalizar');
 
 for (let i = 0; i <= tecnologias.length; i++) {
     if (nova_tecnologia != null) {
